@@ -17,3 +17,22 @@ This code was written in C language
 # Dependencies
 
 # Execution guidelines
+#### Step1: User is presented with 2 choices
+##### Case 1: User types 1 into the terminal-(Voting begins)
+```c
+ if (voting==1){
+        printf("Enter voterId: ");
+        scanf("%d",&vid);
+        if (vid>(vsize-1)){
+            printf("Invalid voterId !");
+            Beep(3000,1500);
+            Sleep(100);
+            system("cls");
+        }
+        else{
+            arr1[vid]=vote(arr1[vid],arr,csize);
+        }
+        
+        
+    }
+```
