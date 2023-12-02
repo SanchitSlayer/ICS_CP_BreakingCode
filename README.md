@@ -36,3 +36,5 @@ This code was written in C language
         
     }
 ```
+##### User is asked for his voter ID
+###### E.g User enters his voter ID as 1 in the terminal (User presented with the list of candidates along with their corresponding serial number)
