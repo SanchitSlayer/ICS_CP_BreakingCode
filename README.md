@@ -90,4 +90,44 @@ struct voter vote(struct voter a, struct candidate arr[], int length){
 ##### if user enters wrong username or password,an "Authentication failed.Invalid username or password"
 ![](screenshots/3dec3.png)
 ##### After entering correct username and password,voting process ends,final votes are calculated.Voter turnout is calculated and printed.Name of winner is printed along with the percentage of votes the winner received.
+```c
+int authenticate() {
+    char username[20];
+    char password[20];
+
+    // Hardcoded username and password (you can replace them with your own)
+    const char correctUsername[] = "breakingcode";
+    const char correctPassword[] = "random";
+
+    printf("Enter username: ");
+    scanf("%s", username);
+
+    printf("Enter password: ");
+    scanf("%s", password);
+
+    if (strcmp(username, correctUsername) == 0 && strcmp(password, correctPassword) == 0) {
+        return 1; // Authentication successful
+    } else {
+        printf("Authentication failed. Invalid username or password.\n");
+        Beep(3000,1500);
+            Sleep(100);
+            system("cls");
+        return 0; // Authentication failed
+    }
+}
+```
+```c
+if (voting==2){
+        if (authenticate()) {
+                saveData(arr1, vsize, arr, csize);
+                result(arr, csize);
+                printf("\nVoter Turnout: %.2f%%\n",((float)sumVotes(arr,csize)/vsize) * 100);
+
+                calculateWinner(arr,csize);
+                refreshData(arr1,vsize,arr,csize);
+                tf = 1;
+                break;
+            }
+    }
+```
 
