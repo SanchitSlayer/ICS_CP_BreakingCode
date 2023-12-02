@@ -39,7 +39,7 @@ This code was written in C language
 ##### User is asked for his voter ID
 ###### E.g User enters his voter ID as 1 in the terminal (User presented with the list of candidates along with their corresponding serial number)
 ![](screenshots/3dec,jpg.jpg)
-
+###### If user enters invalid voter ID, an error beep is sounded and "Invalid voter ID" message is shown.
 ###### After entering the choice of candidate,confirmation beep sounds,the terminal clears,vote is added to the chosen candidate and terminal is cleared to initate voting for another voter.
 ```c
 struct voter vote(struct voter a, struct candidate arr[], int length){
