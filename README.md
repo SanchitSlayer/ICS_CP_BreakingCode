@@ -42,6 +42,7 @@ This code was written in C language
 ###### If user enters invalid voter ID, an error beep is sounded and "Invalid voter ID" message is shown.
 ![](screenshots/3dec.png)
 ###### If user chooses invalid option for his vote ,an error beep is sounded and "Invalid option" message is shown.
+![](screenshots/3dec2.png)
 ###### After entering the choice of candidate,confirmation beep sounds,the terminal clears,vote is added to the chosen candidate and terminal is cleared to initate voting for another voter.
 ```c
 struct voter vote(struct voter a, struct candidate arr[], int length){
