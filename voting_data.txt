@@ -1,0 +1,60 @@
+Voters:
+Rahul 0 -1 0
+Sonia 1 -1 0
+Amit 2 -1 0
+Priya 3 -1 0
+Vikram 4 -1 0
+Neha 5 -1 0
+Rajat 6 -1 0
+Kavita 7 -1 0
+Ravi 8 -1 0
+Pooja 9 -1 0
+Arjun 10 -1 0
+Sakshi 11 -1 0
+Arun 12 -1 0
+Meera 13 -1 0
+Kiran 14 -1 0
+Anita 15 -1 0
+Suresh 16 -1 0
+Kavita 17 -1 0
+Rahul 18 -1 0
+Sunita 19 -1 0
+Rohit 20 -1 0
+Aarti 21 -1 0
+Vivek 22 -1 0
+Shweta 23 -1 0
+Aman 24 -1 0
+Nisha 25 -1 0
+Ajay 26 -1 0
+Mona 27 -1 0
+Rajesh 28 -1 0
+Neeta 29 -1 0
+Vishal 30 -1 0
+Sanya 31 -1 0
+Hari 32 -1 0
+Deepa 33 -1 0
+Raj 34 -1 0
+Anjali 35 -1 0
+Rahul 36 -1 0
+Divya 37 -1 0
+Kumar 38 -1 0
+Nandini 39 -1 0
+Arnav 40 -1 0
+Sonam 41 -1 0
+Vijay 42 -1 0
+Radha 43 -1 0
+Alok 44 -1 0
+Suman 45 -1 0
+Vinay 46 -1 0
+Anita 47 -1 0
+Rajeev 48 -1 0
+Ishita 49 -1 0
+
+Candidates:
+Suresh 0 0
+Anita 1 0
+Rahul 2 0
+Priya 3 0
+Vikram 4 0
+Neha 5 0
+N.O.T.A 6 0
