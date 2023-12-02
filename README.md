@@ -1,6 +1,6 @@
 # Team information 
 ###  Breaking Code (Mini Voting System)
-![alt text](myproject.png)
+![random](myproject.png)
 |Name|Roll no.|
 |-------|-------|
 |Sanchit Garg|B23CY1019|
