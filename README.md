@@ -7,7 +7,7 @@
 |Prashasta Srivastava|B23EE1057|
 |Shlok Kanani|B23CS1068|
 # How to execute the code 
-This code was written in C language
+This code in written in C language
 ###### Step 1: Download VS code
 ###### Step 2: If you are windows user download a gcc compiler
 ###### Step 3: Download the code and run it in VS code.
