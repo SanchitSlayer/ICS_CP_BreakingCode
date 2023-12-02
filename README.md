@@ -39,3 +39,6 @@ This code was written in C language
 ##### User is asked for his voter ID
 ###### E.g User enters his voter ID as 1 in the terminal (User presented with the list of candidates along with their corresponding serial number)
 ![](screenshots/3dec,jpg.jpg)
+
+###### After entering the choice of candidate,the terminal clears,vote is added to the chosen candidate and terminal is cleared to initate voting for another voter.
+##### Case 2: User types 2 into the terminal (Voting process ends sfter entering user name and password given to authorised people )
