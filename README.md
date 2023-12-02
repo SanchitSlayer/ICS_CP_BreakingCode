@@ -12,9 +12,13 @@ This code was written in C language
 ###### Step 2: If you are windows user download a gcc compiler
 ###### Step 3: Download the code and run it in VS code.
 ###### Step 4: Input the suitable data according to the instruction appearing on the terminal
-# Environemt setup
+# Enviroment setup
+#### Download VSCode or any other similar IDLE for C language
+#### Download C compiler.
 
 # Dependencies
+#### voting_data.txt
+#### Currently working only on windows platform
 
 # Execution guidelines
 #### Step1: User is presented with 2 choices
