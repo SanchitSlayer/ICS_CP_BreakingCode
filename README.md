@@ -33,4 +33,4 @@ This code was written in C language
 ##### if user enters wrong username or password,an "Authentication failed.Invalid username or password"
 ![](screenshots/3dec3.png)
 ##### After entering correct username and password,voting process ends,final votes are calculated.Voter turnout is calculated and printed.Name of winner is printed along with the percentage of votes the winner received.
-
+![](screenshots/3dec4.png)
