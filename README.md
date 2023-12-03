@@ -33,7 +33,9 @@ This code in written in C language
 ![](screenshots/3dec2.png)
 ##### After entering the choice of candidate,confirmation beep sounds,the terminal clears,vote is added to the chosen candidate and terminal is cleared to initate voting for another voter.
 
-##### Case 2: User types 2 into the terminal (Voting process ends sfter entering user name and password given to authorised people )
+##### Case 2: User types 2 into the terminal (Voting process ends after entering correct user name and password given to authorised people ).
+#### username: breakingcode
+#### password: random
 ##### if user enters wrong username or password,an "Authentication failed.Invalid username or password"
 ![](screenshots/3dec3.png)
 ##### After entering correct username and password,voting process ends,final votes are calculated.Voter turnout is calculated and printed.Name of winner is printed along with the percentage of votes the winner received.
