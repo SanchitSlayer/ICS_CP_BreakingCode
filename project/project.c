@@ -178,7 +178,7 @@ struct voter vote(struct voter a, struct candidate arr[], int length){
         printf("%s (Press %d to vote %s) \n\n", arr[i].name, arr[i].candId,arr[i].name);
         
     }
-    printf("Enter your choice: ");
+    printf("Enter your choice (Please enter only integral values): ");
     scanf("%d",&choiced);
     if (choiced>=length){
         printf("Invalid option");
@@ -262,24 +262,45 @@ int main() {
     while (tf==0){
     
     printf("\n1. Vote");
+    // printf("\n2. New Voter");
+    // printf("\n3. New Candidate");
     printf("\n2. Finish process");
-    printf("\nEnter choice: ");
-    scanf("%d",&voting);
-    
+    printf("\nEnter choice (Please enter integral values): ");
+    // scanf("%d",&voting);
+
+    if (scanf("%d", &voting) != 1 || voting<=0 || voting >=3) {
+                printf("Invalid choice. Please enter a valid integer.\n");
+                Beep(3000, 1500);
+                Sleep(100);
+                while (getchar() != '\n');  // Clear the input buffer
+                system("cls");
+                continue;
+            }
+    else{
+
     
     if (voting==1){
-        printf("Enter voterId: ");
-        scanf("%d",&vid);
-        if (vid>(vsize-1)){
-            printf("Invalid voterId !");
-            Beep(3000,1500);
-            Sleep(100);
-            system("cls");
-        }
-        else{
-            arr1[vid]=vote(arr1[vid],arr,csize);
-        }
-        
+        printf("Enter voterId (Please enter only integral values) : ");
+        if (scanf("%d", &vid) != 1) {
+        printf("Invalid voterId. Please enter a valid integer.\n");
+        Beep(3000, 1500);
+        Sleep(100);
+        while (getchar() != '\n');  // Clear the input buffer
+        system("cls");
+        continue;
+    }
+
+    // Check if vid is within a valid range
+    if (vid < 0 || vid >= vsize) {
+        printf("Invalid voterId!\n");
+        Beep(3000, 1500);
+        Sleep(100);
+        system("cls");
+        continue;
+    }
+
+    // Proceed to vote function only if vid is a valid integer
+    arr1[vid] = vote(arr1[vid], arr, csize);
         
     }
  
@@ -290,7 +311,7 @@ int main() {
                 printf("\nVoter Turnout: %.2f%%\n",((float)sumVotes(arr,csize)/vsize) * 100);
 
                 calculateWinner(arr,csize);
-                refreshData(arr1,vsize,arr,csize);
+                // refreshData(arr1,vsize,arr,csize);
                 tf = 1;
                 break;
             }
@@ -313,6 +334,7 @@ int main() {
                 return 1; // Exit the program with an error code
             }
         }
+    }
 
     }
 
